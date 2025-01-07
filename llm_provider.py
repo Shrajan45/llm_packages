@@ -9,8 +9,7 @@ import pandas as pd
 from transformers import pipeline
 from .prompt_handler import PromptHandler
 
-
-class LLMProvider():
+class LLMProvider:
     """
     Class to querry  LLM provided by openai and Hugging face.
       
